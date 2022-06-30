@@ -1,4 +1,4 @@
-local Passwords = {"EMIRHANxBEST"} -- write all your choosen passwords in this tab .
+local Passwords = {"EMIRHANX"} -- write all your choosen passwords in this tab .
 local Menu = gg.prompt({"Input Password :"},nil,{"text"})
 if not Menu then return end
 for l , I in pairs(Passwords) do
