@@ -1,3 +1,10 @@
+local Passwords = {"EMIRHANxCHINS"} -- write all your choosen passwords in this tab .
+local Menu = gg.prompt({"Input Password :"},nil,{"text"})
+if not Menu then return end
+for l , I in pairs(Passwords) do
+if Menu[1] == I then A = true end
+end
+if A ~= true then gg.alert("⚠ Error Password⚠ ") return else gg.toast("✅ Correct Password !") end
 gg.sleep(300)
 gg.toast(" ◼◻◻◻◻◻◻◻◻◻10%")
 gg.sleep(300)
