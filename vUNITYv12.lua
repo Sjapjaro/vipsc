@@ -126,7 +126,7 @@ function replaced(repl)
 	if s ~= 0 then gg.setValues(set) end
 	ok = true
 end
-local Passwords = {"UNITY VIP","UNITY VIP"}
+local Passwords = {"UNITY VIP12","UNITY VIP12"}
 gg.toast("\n🔒Şifrelenmiş Komut Dosyası🔒")
 local Menu = gg.prompt({"🔰EMİRHAN\n🎬YouTube: EMİRHAN UNITY\n🔒Şifreyi Giriniz:"},{"🛡️Şifreyi Giriniz..."},{"text"}) 
 if not Menu then gg.toast("\n【☑️】Şifreyi Giriniz !!! 【☑️】") os.exit(3) end
